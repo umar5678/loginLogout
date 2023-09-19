@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /* font-family: Verdana, Geneva, Tahoma, sans-serif; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-box{
+    margin: 3rem 0 0 0;
+    display: flex;
+    max-width: 900px;
+    margin-inline: auto;
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 3rem;
+}
+
+.left, .right{
+    width: 200px;
+    text-align: center;
+}
+
+h3{
+    color: rgb(20, 19, 19);
+    margin-bottom: 2rem;
+}
+a{
+    width: fit-content;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding:0.5rem  2rem;
+    color: rgb(26, 26, 26);
+    background-color: rgb(212, 212, 212);
+    border: 3px solid rgb(104, 104, 104);
+    border-radius: 12px;
+    transition: 0.3s all ease;
+}
+a:hover{
+    background-color: rgb(97, 244, 255);
+}
+.form-container{
+    margin-top: 4rem;
+    display: flex;
+    justify-content: center;
+    max-width: 900px;
+    margin-inline: auto;
+}
+
+.form{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+}
+
+input{
+    padding: 0.4rem 1rem;
+    font-size: 1.1rem;
+    border-radius: 12px;
+    border: 2px solid gray;
+    outline: none;
+}
+button{
+    width: fit-content;
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+    padding:0.5rem  2rem;
+    color: rgb(26, 26, 26);
+    background-color: rgb(212, 212, 212);
+    border: 3px solid rgb(104, 104, 104);
+    border-radius: 12px;
+    transition: 0.3s all ease;
+}
+button:hover{
+    background-color: rgb(97, 244, 255);
+}
+.wrong-password{
+    color: red;
+    text-align: right;
+}
+.dashboard{
+    max-width: 900px;
+    margin-inline: auto;
+    margin-top: 3rem;
+}
