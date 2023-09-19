@@ -39,4 +39,21 @@ Before running the application, ensure you have the following installed:
    ```bash
    npm run dev
 
+## Usage
+
+- Visit http://localhost:4400 to access the home page.
+- Use the provided routes for registration, login, and logout.
+  
+## Folder Structure
+
+- public/: Static assets (CSS, images, etc.).
+- views/: EJS templates for rendering HTML views.
+- routes/: Express route handlers for different endpoints.
+- models/: Mongoose models for defining the schema.
+- middlewares/: Custom middleware functions (e.g., authentication).
+ - app.js: Main application file.
+
+## Contributing
+
+- Contributions are welcome! If you have any suggestions or want to improve this project, please open an issue or create a pull request.
 
