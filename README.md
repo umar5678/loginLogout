@@ -25,5 +25,18 @@ Before running the application, ensure you have the following installed:
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/authentication-express-mongodb.git
+   https://github.com/umar5678/loginLogout.git
+
+2. Install the project dependencies:
+
+    ```bash
+    npm I
+
+3. Configure Environment Variables
+
+4. Start the application:
+
+   ```bash
+   npm run dev
+
 
